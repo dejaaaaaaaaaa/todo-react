@@ -1,6 +1,5 @@
 import { createContext, useState } from "react";
 import list from "./TodoData";
-import TodoItem from "./todoItem";
 
 const ItemsContext = createContext({
   items: list,

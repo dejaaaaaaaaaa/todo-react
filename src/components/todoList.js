@@ -1,7 +1,6 @@
 import TodoItem from "./todoItem";
 
 function TodoList(props){
-    console.log(props.todoList);
     return (
         <ul className='list-group'>
             {props.todoList.map((item) => (
